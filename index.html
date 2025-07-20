@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix Detergent</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#">About</a>
+      <a href="#">Shop</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div class="logo">NETFLIX DETERGENT</div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Clean Like Never Before.</h1>
+      <p>Introducing the only detergent inspired by your favorite binge-watch: <strong>Netflix Detergent</strong></p>
+      <button onclick="showInterest()">Buy Now</button>
+    </div>
+    <img class="product-image" src="https://via.placeholder.com/300x300?text=Netflix+Detergent" alt="Netflix Detergent" />
+  </section>
+
+  <section class="packs">
+    <h2>Choose Your Pack</h2>
+    <div class="pack-options">
+      <div class="pack">
+        <img src="https://via.placeholder.com/150x250?text=Starter+Pack" alt="Starter Pack" />
+        <p>Starter Pack</p>
+      </div>
+      <div class="pack">
+        <img src="https://via.placeholder.com/150x250?text=Family+Pack" alt="Family Pack" />
+        <p>Family Pack</p>
+      </div>
+      <div class="pack">
+        <img src="https://via.placeholder.com/150x250?text=Binge-Wash+Combo" alt="Binge-Wash Combo" />
+        <p>Binge-Wash Combo</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="query-section">
+  <h2>Send Us a Query</h2>
+  <form id="queryForm" class="query-form">
+    <input type="text" id="name" placeholder="Your Name" required />
+    <input type="email" id="email" placeholder="Your Email" required />
+    <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Submit</button>
+    <p id="formMsg" class="form-message"></p>
+  </form>
+</section>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
